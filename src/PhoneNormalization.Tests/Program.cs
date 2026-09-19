@@ -38,3 +38,5 @@ foreach (var (id, raw, expected) in cases)
 
 Console.WriteLine($"\n{passed}/{cases.Length} passed, {failed} failed");
 Environment.Exit(failed == 0 ? 0 : 1);
+
+Assert.True(false);
